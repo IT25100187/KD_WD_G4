@@ -5,9 +5,9 @@ import com.bakery.model.Admin;
 import com.bakery.util.DAOFactory;
 import com.bakery.util.PasswordUtil;
 
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.*;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.*;
 import java.io.IOException;
 
 @WebServlet("/admins")
